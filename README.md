@@ -6,9 +6,14 @@ Paquete Python que implementa una **CLI** para automatizar la ingesta o carga de
 
 ## ¿Cómo instalar el paquete?
 
-- Descargar el presente código desde el VCS (gitlab/github, etc.)
 - Crear un entorno virtual (virtual environment) de Python `python -m venv venv`
-- Activar el entorno virtual y ejecutar el comando `python -m pip install .`
+- Track 1
+  - Descargar el presente código desde el VCS (gitlab) a una carpeta local
+  - Activar el entorno virtual y ejecutar el comando `python -m pip install .`
+- Track 2
+  - Instalarlo directamente desde el VCS `python -m pip install git+https://gitlab.agesic.gub.uy/data-science/ecosistema-covid/cdn-carga-reporte-final.git`
+
+> El script **python** utilizado en los tracks 1 y 2 debe de ser el instalado en el entorno virtual y no el genérico de la instación del sistema operativo.
 
 ## Modo de uso
 
