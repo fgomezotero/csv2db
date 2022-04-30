@@ -5,8 +5,8 @@ from datetime import date
 import click
 import numpy as np
 import pandas as pd
+from csv2db.models import Base
 from sqlalchemy import create_engine
-from carga_reporte.models import Base
 
 # Get cli directory path
 basedir = os.path.abspath(os.path.dirname(__file__))
@@ -14,7 +14,7 @@ basedir = os.path.abspath(os.path.dirname(__file__))
 
 @click.group()
 def cli() -> None:
-    """Script to ingest final.csv report into a Postgresql database"""
+    """Script to ingest csv file into a Postgresql database table"""
     pass
 
 
@@ -71,7 +71,7 @@ def loaddb(
     password: str,
     file: click.Path,
 ) -> None:
-    """Load data from final.csv file to database"""
+    """Load data from csv file to a PostgreSQL database table"""
     try:
         database_url = (
             "postgresql+psycopg2://"

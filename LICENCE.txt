@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2022 Agencia de Gobierno Electrónico y Sociedad de la Información y del Conocimiento (Agesic)
+Copyright (c) 2022 Franklin Gómez Otero <fgomezotero@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
